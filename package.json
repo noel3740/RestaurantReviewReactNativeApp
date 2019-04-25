@@ -5,7 +5,9 @@
   "proxy": "http://192.168.1.2:3001/",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "start:android": "react-native run-android",
+    "test": "jest",
+    "build:android:release": "cd android && gradlew assembleRelease"
   },
   "dependencies": {
     "axios": "^0.18.0",
