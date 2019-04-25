@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const baseUrl = 'https://noel-restaurant-review-api.herokuapp.com';
+//const baseUrl = 'https://noel-restaurant-review-api.herokuapp.com';
+const baseUrl = 'http://ec2-18-218-80-79.us-east-2.compute.amazonaws.com:3001';
 
 export default {
   // Gets all restaurants
