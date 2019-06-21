@@ -20,12 +20,14 @@ export default class RestaurantRow extends Component {
     }
 
     infoPressed = () => {
-        this.setState(currentState => {
+        // this.setState(currentState => {
 
-            return {
-                showInfo: !currentState.showInfo
-            };
-        });
+        //     return {
+        //         showInfo: !currentState.showInfo
+        //     };
+        // });
+
+        this.props.navigation.navigate('Info');
     }
 
     render() {
